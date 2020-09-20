@@ -390,34 +390,34 @@ prayTimes.setMethod('Oman')
 
 # if __name__ == "__main__":
 #     from datetime import date, timedelta
-#     date_of_interest = date.today() - timedelta(days=1) + timedelta(days=365) 
+#     date_of_interest = date.today() 
 #     print('Prayer Times for today in Muscat, Oman.')
 #     print('for date: ', date_of_interest.isoformat())
 #     print('=' * 41)
 #     times = prayTimes.getTimes(date_of_interest, (23.58,58.35,26), 4)
-#     for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha', 'Midnight']:
+#     for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha']:
 #         print(i + ': ' + times[i.lower()])
 
 # SALALAH
 
 # if __name__ == "__main__":
 #     from datetime import date, timedelta
-#     date_of_interest = date.today() - timedelta(days=1) + timedelta(days=60) 
+#     date_of_interest = date.today() 
 #     print('Prayer Times for today in Salalah, Oman.')
 #     print('for date: ', date_of_interest.isoformat())
 #     print('=' * 41)
 #     times = prayTimes.getTimes(date_of_interest, (17.025,54.04,25), 4)
-#     for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha', 'Midnight']:
+#     for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha']:
 #         print(i + ': ' + times[i.lower()])
 
 # NIZWA
 
 # if __name__ == "__main__":
 #     from datetime import date, timedelta
-#     date_of_interest = date.today() # + timedelta(days=30) 
+#     date_of_interest = date.today()
 #     print('Prayer Times for today in Nizwa, Oman.')
 #     print('for date: ', date_of_interest.isoformat())
 #     print('=' * 41)
 #     times = prayTimes.getTimes(date_of_interest, (22.933, 57.5363,50), 4)
-#     for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha', 'Midnight']:
+#     for i in ['Fajr', 'Sunrise', 'Dhuhr', 'Asr', 'Maghrib', 'Isha']:
 #         print(i + ': ' + times[i.lower()])
