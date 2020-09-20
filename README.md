@@ -1,9 +1,19 @@
 # adhan-oman
 a forked version of a [gist](https://gist.github.com/skeeph/3293106) that includes Oman adhan parameters. Please note the elevations of cities in Oman. 
 
+Note:
+
+The method has come about with trial and error. the values are off by 1 minute in some cities, maybe due to elevation.
+
 Reference for Oman Prayer Times:
 
 https://www.mara.gov.om/calendar_page2.asp
+
+# Oman's Adhan Calculation Method/Parameters
+
+| Fajr (Angle) | Isha (Angle) | Dhuhr (Delay from Mid Day in Floats) | Maghrib (Time Delay from Sunset) | Asr (Shadow Length) |
+|--------------|--------------|--------------------------------------|----------------------------------|---------------------|
+| 18           | 18.2         | 0.099                                | -5 Minutes                       | 1.065               |
 
 # Help and Manual
 
